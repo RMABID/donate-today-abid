@@ -232,3 +232,41 @@ h1{
     height: 100%;
     border-radius: 5px;
 }
+
+
+/* Get My Updates css styles  */
+
+
+
+.updates-section-container h1{
+    text-align: center;
+}
+
+.email-card{
+    width: 809px;
+    height: 200px;
+    margin: auto;
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 244, 214);
+}
+input{
+    width: 275px;
+    height: 48px;
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    color: rgb(170, 159, 159);
+}
+.email-btn{
+    width: 157px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 89, 89);
+}
