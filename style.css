@@ -137,3 +137,52 @@ h1{
     font-size: 18px;
     color: rgb(179, 179, 179);
 }
+
+
+/* Our Donate Plan sections css styles */
+
+.donate-plan-section{
+    max-width: 1160px;
+    margin: auto;
+}
+.donate-plan-container h1{
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(18, 18, 18);
+}
+
+.donate-plan-card{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 55px;
+}
+.card-2{
+    width: 360px;
+    height: 322px;
+    border-radius: 5px;
+    padding: 63px 32px;
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.card-2 h2{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgb(18, 18, 18);
+}
+.card-2 p{
+    width: 315px;
+    height: 101px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 25px;
+    color: rgb(112, 112, 112);
+}
+#education-1{
+    background-color:rgb(255, 244, 214);
+}
+#food-1{
+    background-color: rgba(255, 89, 89, 0.1);
+}
