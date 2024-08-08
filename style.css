@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    font-family: "Inter", sans-serif;
+
+}
+
+/* background-image: linear-gradient(to right, red , yellow); */
+
+
+
+
+/* donate banner section css styles */
+
+.banner-section{
+    /* width: 1440px; */
+    height: 669px;
+    background-image: linear-gradient(
+        to right, 
+        rgba(19, 19, 24, 0.8) 20%,
+        rgba(19, 19, 24, 0) 100%
+        ), 
+        url(./images/donation0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 175px 307px;
+    /* align-items: center; */
+}
+.banner-container{
+    width: 826px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    color: aliceblue;
+}
+.banner-container h1{
+    /* font-family: "Inter", sans-serif; */
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.banner-container p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.primary-btn{
+    width: 160px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 25px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 89, 89);
+}
+
+
+
+/* Donate Today css styles */
+
+.donate-section-container{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.donate-section-content{
+    margin-top: 130px;
+}
+.donate-section-content h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(18, 18, 18);
+}
+.donate-section-content p{
+    width: 691px;
+    height: 58px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(112, 112, 112);
+}
+.donate-section-card{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.card{
+    width: 135px;
+    height: 123px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 43px 22px;
+    color: rgb(112, 112, 112);
+    background-color: rgb(250, 250, 250);
+}
+.card h1{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#card-2{
+    color: rgb(255, 89, 89);
+    background-color: rgb(255, 238, 238);
+}
+.donate-amount{
+    margin-top: 60px;
+}
+.donate-amount p{
+    font-size: 18px;
+    color: rgb(179, 179, 179);
+}
